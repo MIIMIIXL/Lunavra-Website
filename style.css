@@ -1,9 +1,18 @@
+.logo-wrapper {
+  border: 3px solid #cc99ff; /* soft lavender */
+  border-radius: 20px;
+  padding: 20px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 0 40px rgba(204, 153, 255, 0.3);
+  max-width: 400px;
+  text-align: center;
+}
 
-.logo-img {
-  width: 100px;           /* or 200px, or whatever looks right */
-  max-width: 50%;         /* keeps it responsive on smaller screens */
-  height: auto;           /* keeps proportions */
+.lunavra-logo {
+  width: 100%;
+  height: auto;
   display: block;
-  margin: 40px auto;
-  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
+  border-radius: 12px;
+  filter: drop-shadow(0 0 10px rgba(204, 153, 255, 0.4));
 }

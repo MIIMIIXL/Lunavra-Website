@@ -6,7 +6,6 @@
   <title>Lunavra • Coming Soon</title>
   <meta name="description" content="Lunavra Ritual Co. – Ritual tools for your sacred path. Coming soon." />
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Clicker+Script&display=swap" rel="stylesheet">
-  <img src="images/Lunavra_Ritual_Co_Official_Logo_50.jpg" alt="Lunavra Logo" class="logo-img" />
 
   <style>
     body {
@@ -18,9 +17,23 @@
       padding: 80px 20px;
     }
 
-    .hero-logo {
-      max-width: 200px;
-      margin-bottom: 30px;
+    .logo-wrapper {
+      border: 3px solid #cc99ff;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.02);
+      box-shadow: 0 0 40px rgba(204, 153, 255, 0.3);
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .lunavra-logo {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+      filter: drop-shadow(0 0 10px rgba(204, 153, 255, 0.4));
     }
 
     h1 {
@@ -51,11 +64,37 @@
       margin-top: 20px;
       color: #ffd6ff;
     }
+
+    @media (max-width: 768px) {
+      .logo-wrapper {
+        max-width: 280px;
+        padding: 15px;
+      }
+
+      .lunavra-logo {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .signature {
+        font-size: 1.5rem;
+      }
+    }
   </style>
 </head>
 <body>
 
-  
+  <div class="logo-wrapper">
+    <img src="images/Lunavra_Ritual_Co_Official_Logo_50.jpg" alt="Lunavra Logo" class="lunavra-logo" />
+  </div>
+
   <p>Beautiful ritual tools for every path.</p>
   <p>The ritual begins soon...</p>
 
@@ -63,8 +102,6 @@
     <p>This is the official home of Lunavra — your future ritual toolkit and digital altar haven.</p>
     <p class="signature">Stay luminous 🌙</p>
   </div>
-  
-
 
 </body>
 </html>
